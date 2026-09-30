@@ -1,0 +1,94 @@
+# macOS files
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and generated packages
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Environment files that may contain credentials
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Private keys and credential files
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+credentials.*.json
+secrets.json
+secrets.*.json
+secrets.yaml
+secrets.yml
+/secrets/
+/credentials/
+
+# Downloaded models and checkpoints
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.tflite
+/models/
+/weights/
+/checkpoints/
+
+# Local AI runtime state and caches
+.cache/
+.huggingface/
+.ollama/
+.openclaw/
+/.lemonade/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+/tmp/
+
+# Local databases and private input data
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+/data/private/
+
+# Local editor settings
+.vscode/
+.idea/
